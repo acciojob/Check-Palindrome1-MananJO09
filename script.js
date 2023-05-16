@@ -11,4 +11,7 @@ function palindrome(str){
     }
     return 'true';
 }
+const str = prompt("");
+const value = palindrome(str);
+
 module.exports = palindrome
